@@ -31,3 +31,15 @@ Series can also have a name attribute and you can aslo rename it
 * When working with raw NumPy arrays, looping through value-by-value is usually not necessary.
 * A key difference between Series and ndarray is that operations between Series automatically align the data based on label. 
 Thus, you can write computations without giving consideration to whether the Series involved have the same labels.
+
+## DataFrame
+DataFrame is a 2-dimensional labeled data structure with columns of potentially different types. You can think of it like a spreadsheet or SQL table, or a dict of Series objects. It is generally the most commonly used pandas object. Like Series, DataFrame accepts many different kinds of input:
+* Dict of 1D ndarrays, lists, dicts, or Series
+* 2-D numpy.ndarray
+* Structured or record ndarray
+* A Series
+* Another DataFrame
+
+Along with the data, you can optionally pass index (row labels) and columns (column labels) arguments. \
+If axis labels are not passed, they will be constructed from the input data based on common sense rules.
+
