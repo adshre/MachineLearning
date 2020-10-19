@@ -41,5 +41,20 @@ DataFrame is a 2-dimensional labeled data structure with columns of potentially 
 * Another DataFrame
 
 Along with the data, you can optionally pass index (row labels) and columns (column labels) arguments. \
-If axis labels are not passed, they will be constructed from the input data based on common sense rules.
+If axis labels are not passed, they will be constructed from the input data based on common sense rules.\
 
+
+* You can treat a DataFrame semantically like a dict of like-indexed Series objects.
+* DataFrame has an assign() method that allows you to easily create new columns that are potentially derived from existing columns.
+
+* Indexing/ Slicing :
+
+| Operation   |      Syntax      |  Result |
+|------------:|------------------|-------- |
+| Select column| df[col].        | Series |
+| Select row by label | df.loc[label] | Series |
+| Select row by integer location | df.iloc[loc] | Series |
+| Slice row | df[5:10] |DataFrame |
+| Select row by boolean vector | df[boo_vec] | DataFrame|
+
+* Data alignment between DataFrame objects automatically align on both the columns and the index (row labels). Again, the resulting object will have the union of the column and row labels.
