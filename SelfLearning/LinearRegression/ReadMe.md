@@ -13,6 +13,7 @@ Andrew Ng =>
 Articles =>
  - https://medium.com/@ranaprathap/learning-ml-with-andrew-part-1-linear-regression-with-a-single-variable-615f2d163b88
  - https://statisticsbyjim.com/regression/heteroscedasticity-regression/
+ - http://theprofessionalspoint.blogspot.com/2019/05/advantages-and-disadvantages-of-linear.html
  
 Interview Article =>
  - https://medium.com/analytics-vidhya/preparing-for-interview-on-machine-learning-3145caeea06b
