@@ -29,6 +29,29 @@
       When this phenomenon occurs, **the confidence interval tends to be unrealistically wide or narrow**.
     - If the error terms are **non- normally distributed, confidence intervals may become too wide or narrow**.
       Presence of non — normal distribution suggests that there are a few unusual data points which must be studied closely to make a better model.
+      
+      
+# Advantages :
+
+
+- Linear Regression **performs well when the dataset is linearly separable**. We can use it to find the nature of the relationship among the variables.
+
+- Linear Regression is **easier to implement**, interpret and very efficient to train. 
+
+- Linear Regression is prone to **over-fitting** but it can be easily **avoided** using some dimensionality **reduction techniques**, regularization (L1 and L2) techniques and cross-validation.
+
+# Disadvantages :
+
+- Main limitation of Linear Regression is the **assumption of linearity** between the dependent variable and the independent variables. In the real world, the data is rarely linearly separable. It assumes that there is a straight-line relationship between the dependent and independent variables which is incorrect many times.
+
+- **Prone to noise and overfitting**: If the number of observations are lesser than the number of features, Linear Regression should not be used, otherwise it may lead to overfit because is starts considering noise in this scenario while building the model.
+
+- **Prone to outliers**: Linear regression is very sensitive to outliers (anomalies). So, outliers should be analyzed and removed before applying Linear Regression to the dataset.
+
+- **Prone to multicollinearity** : Before applying Linear regression, multicollinearity should be removed (using dimensionality reduction techniques) because it assumes that there is no relationship among independent variables.
+
+
+
 
 # What is Linear Regression with one variable
   In simple terms, it is a straightforward Supervised learning approach for predicting a quantitative response Y on the basis of a single predictor variable X. 
