@@ -1,7 +1,7 @@
 # This repo contains details about Linear Regression.
 
 ### Theory : 
-- Linear Rigression with one Variable.
+- Linear Regression with one Variable.
 
 References :
 
