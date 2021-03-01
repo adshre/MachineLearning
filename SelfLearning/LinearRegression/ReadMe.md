@@ -14,7 +14,10 @@ Articles =>
  - https://medium.com/@ranaprathap/learning-ml-with-andrew-part-1-linear-regression-with-a-single-variable-615f2d163b88
  - https://statisticsbyjim.com/regression/heteroscedasticity-regression/
  - http://theprofessionalspoint.blogspot.com/2019/05/advantages-and-disadvantages-of-linear.html
- - https://mccormickml.com/2014/03/04/gradient-descent-derivation/
+  
+  - Gradient Descent Math intution :
+     - https://mccormickml.com/2014/03/04/gradient-descent-derivation/
+     - https://medium.com/analytics-vidhya/concepts-of-differential-calculus-for-understanding-derivation-of-gradient-descent-in-linear-de59a17496a3
  
 Interview Article =>
  - https://medium.com/analytics-vidhya/preparing-for-interview-on-machine-learning-3145caeea06b
